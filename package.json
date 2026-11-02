@@ -1,0 +1,17 @@
+{
+  "name": "session-refresh-edtech-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types src/session_refresh_demo.ts",
+    "test": "node --experimental-strip-types --test src/session_policy.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
